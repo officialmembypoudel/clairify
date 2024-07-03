@@ -12,16 +12,34 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.memby.clairify",
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.441413522005-2his311084g6n7cfrjtmhrb036a7q5c2"
+            ]
+          }
+        ]
+      }
     },
     "android": {
+      "package": "com.memby.clairify",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
+    "scheme": "clairify",
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "df01b5c3-5cd1-44f6-a6ee-ae0d5ad06c0a"
+      }
     }
   }
 }
